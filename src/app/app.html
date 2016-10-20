@@ -1,0 +1,47 @@
+<ion-menu [content]="content">
+  <ion-toolbar class="sevenarrows-header">
+    <ion-title>Seven Arrows</ion-title>
+  </ion-toolbar>
+  <ion-content>
+    <ion-list>
+      <button ion-item menuClose  style="margin-top: 3.5em" (click)="openArrow(1)">
+        1. Say
+      </button>
+
+      <button ion-item menuClose  (click)="openArrow(2)">
+        2. Mean
+      </button>
+
+      <button ion-item menuClose  (click)="openArrow(3)">
+        3. God
+      </button>
+
+      <button ion-item menuClose (click)="openArrow(4)">
+        4. Man
+      </button>
+
+      <button ion-item menuClose (click)="openArrow(5)">
+        5. Demand
+      </button>
+
+      <button ion-item menuClose (click)="openArrow(6)">
+        6. Relate
+      </button>
+
+      <button ion-item menuClose (click)="openArrow(7)">
+        7. Pray
+      </button>
+    </ion-list>
+    <div style="margin-top: 1em; height: 3em; text-align: center"> 
+        <p style="font-weight: bold;">Donny Mathis &amp; Matt Rogers</p>
+        <a href="http://www.sevenarrowsbible.com">Book Resource Site</a>
+    </div>
+    <div style="margin-top: 2em; height: 3em; text-align: center;"> 
+        <a href="https://gospeltoolbox.org">
+        <img src="assets/images/LogoSmall.png" style="height: 100%;">
+        </a>
+    </div>
+  </ion-content>
+</ion-menu>
+
+<ion-nav #content [root]="rootPage"></ion-nav>
