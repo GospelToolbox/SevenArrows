@@ -1,7 +1,7 @@
 {
-  "name": "ionic-hello-world",
-  "author": "Ionic Framework",
-  "homepage": "http://ionicframework.com/",
+  "name": "sevenarros",
+  "author": "Gospel Toolbox",
+  "homepage": "htts://gospeltoolbox.org",
   "private": true,
   "scripts": {
     "build": "ionic-app-scripts build",
