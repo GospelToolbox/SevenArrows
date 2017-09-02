@@ -1,6 +1,6 @@
 SET ANDROID_VERSION=24.0.3
 
-CALL ionic build android
+CALL ionic cordova build android
 
 CALL cordova build --release android
 
