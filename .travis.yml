@@ -10,6 +10,7 @@ before_install:
   - export LANG=en_US.UTF-8
   - brew update
   - brew upgrade node
+  - brew link --overwrite node
 
 addons:
   apt:
